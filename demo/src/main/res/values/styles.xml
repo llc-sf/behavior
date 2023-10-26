@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseWhiteAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ItemStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/lib_min_item_height</item>
+        <item name="android:minHeight">@dimen/lib_min_item_height</item>
+        <item name="android:padding">@dimen/lib_hdpi</item>
+        <item name="android:background">@drawable/lib_bg2_selector</item>
+    </style>
+
+    <style name="RvStyle">
+        <item name="android:scrollbarSize">5dp</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar_thumb_shape</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layoutManager">androidx.recyclerview.widget.LinearLayoutManager</item>
+    </style>
+
+    <style name="TabItemStyle" parent="LibBodyTextStyle">
+        <item name="android:minWidth">40dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+</resources>
